@@ -1,0 +1,10 @@
+restful风格
+一、@RestController注解
+   包含@Controller注解、@ResqlestBody注解，直接定义在类上
+
+二、@GetMapping注解
+    相当于@RequestMapping(method = {RequestMethod.GET})，还有post，put等操作；
+    @GetMapping(value = "/queryStu/{stuId}")中的value属性，是请求地址，其中{stuId}类似于占位符
+
+三、@PathVariable注解
+    获取@GetMapping的{}值，并且赋值给方法对应参数

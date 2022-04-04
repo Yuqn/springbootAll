@@ -1,0 +1,11 @@
+在配置文件中写各种配置属性，在类中通过@value("${属性名}")的方法获取并且赋值，这种方法一般是用在控制器之类的上面定义一个变量存放。
+eg：
+//    通过value的方法获取配置文件中的值
+       @Value("${student.name}")
+       private String name;
+       @Value("${student.id}")
+       private Integer id;
+       @Value("${student.sex}")
+       private String sex;
+
+可以通过用一个类来映射

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="restFul" />
+        <module name="creat_ymlOfpra" />
+        <module name="valueForPro" />
+        <module name="springbootJsp_01" />
+        <module name="creat_one" />
+        <module name="configForPro" />
+        <module name="redis_01" />
+        <module name="springbootMybatis" />
+        <module name="handerInterceptor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configForPro" target="1.8" />
+      <module name="creat_one" target="1.8" />
+      <module name="creat_ymlOfpra" target="1.8" />
+      <module name="handerInterceptor" target="1.8" />
+      <module name="redis_01" target="1.8" />
+      <module name="restFul" target="1.8" />
+      <module name="springboot_mybatis" target="1.8" />
+      <module name="springBoot_one" target="1.5" />
+      <module name="springbootJsp_01" target="1.8" />
+      <module name="springbootMybatis" target="1.8" />
+      <module name="valueForPro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configForPro" options="-parameters" />
+      <module name="creat_one" options="-parameters" />
+      <module name="creat_ymlOfpra" options="-parameters" />
+      <module name="handerInterceptor" options="-parameters" />
+      <module name="redis_01" options="-parameters" />
+      <module name="restFul" options="-parameters" />
+      <module name="springbootJsp_01" options="-parameters" />
+      <module name="springbootMybatis" options="-parameters" />
+      <module name="springboot_mybatis" options="-parameters" />
+      <module name="valueForPro" options="-parameters" />
+    </option>
+  </component>
+</project>

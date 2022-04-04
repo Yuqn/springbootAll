@@ -1,0 +1,5 @@
+在valueforpro项目中，是通过value在控制器类中直接给定义的变量进行赋值，
+在configForpro项目中，是通过注解，自动给实体类进行赋值，这种方法需要注意的是，名字需要一致
+@ConfigurationProperties(prefix = "student")
+eg：prefix表示前缀
+    @Component注解用于自动创建对象

@@ -1,0 +1,5 @@
+#测试环境，cs是自己定义的名字，需要在application中配置读取这个文件
+server:
+  port: 8082
+  servlet:
+    context-path: /hello

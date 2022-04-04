@@ -1,0 +1,2 @@
+配置文件application.properties或者application.yml，用于配置端口，默认路径之类的信息，一般只用一个
+多环境配置文件：除了application文件外，还有application-类型-yml(或者properties)文件，用于配置开发环境，测试环境和用户使用环境

@@ -1,0 +1,16 @@
+java操作redis数据库
+一、起步依赖
+    web、redis
+二、指定redis
+      spring.redis.host=39.108.141.205
+      spring.redis.port=6378
+      # spring.redis.password=密码
+三、创建保存RedisTemplate的对象，java依靠RedisTemplate操作redis
+      @Resource
+      private RedisTemplate redisTemplate;
+四、指定操作的数据类型
+      ValueOperations red=redisTemplate.opsForValue();
+
+五、对数据库进行操作
+      red.set("id",id);
+      red.set("name",name);

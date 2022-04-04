@@ -1,0 +1,10 @@
+#这里的配置是通用的
+#server:
+#  port: 8080
+#  servlet:
+#    context-path: /hello
+
+#通过指定配置文件，来获取对应配置,使用spring.profiles.active:指定名称
+spring:
+  profiles:
+    active: cs

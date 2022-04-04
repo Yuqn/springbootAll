@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/creat_one/pom.xml" />
+        <option value="$PROJECT_DIR$/../springBoot/springBoot_one/pom.xml" />
+        <option value="$PROJECT_DIR$/creat_ymlOfpra/pom.xml" />
+        <option value="$PROJECT_DIR$/valueForPro/pom.xml" />
+        <option value="$PROJECT_DIR$/configForPro/pom.xml" />
+        <option value="$PROJECT_DIR$/handerInterceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/restFul/pom.xml" />
+        <option value="$PROJECT_DIR$/redis_01/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootJsp_01/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
